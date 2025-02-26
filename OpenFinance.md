@@ -76,6 +76,38 @@ DeFi (Decentralized Finance), ou Finanças Descentralizadas, é um ecossistema d
 
 [https://www.youtube.centidadesom/watch?v=17QRFlml4pA](https://www.youtube.com/watch?v=17QRFlml4pA)
 
+---
+
+# Como eu entendi, e como eu memorizo!K
+
+# 
+
+Se houver **apenas 1000 USDT em circulação**, o ledger (livro-razão) mostraria algo assim:
+
+| Endereço (Carteira) | Saldo (USDT) |
+| --- | --- |
+| Pessoa 1 | 10 |
+| Pessoa 2 | 200 |
+| Pessoa 3 | 790 |
+
+Cada **endereço de carteira** representa um usuário, e qualquer um pode verificar os saldos consultando o blockchain.
+
+### 📊 **Ponto de Referência: Pools de Liquidez**
+
+Em uma DEX, como o **Uniswap** (Ethereum) ou o **PancakeSwap** (Binance Smart Chain), a troca entre duas moedas (por exemplo, **ETH → USDT**) não ocorre diretamente entre os usuários, mas através de **pools de liquidez**. Esses pools são como "caixas" de moedas que contêm duas moedas (ou mais), permitindo que você as troque.
+
+- **Pool de liquidez**: Um smart contract que contém uma quantidade de duas moedas, como **ETH e USDT**, onde os usuários fornecem liquidez para permitir trocas.
+- **Preço automático**: O preço entre as duas moedas no pool é determinado pela **proporção** das moedas no pool. Por exemplo, se o pool tem **100 ETH e 10.000 USDT**, a taxa de câmbio será 1 ETH = 100 USDT (baseada na proporção).
+
+### Como as trocas acontecem:
+
+1. **Usuário A** deseja trocar 1 ETH por USDT.
+2. O smart contract consulta o pool de liquidez e vê que a proporção no pool é 1 ETH = 100 USDT.
+3. O contrato calcula quantos USDT o Usuário A receberá, levando em conta a liquidez e possíveis taxas.
+4. A transação é executada e o Usuário A recebe o valor correspondente em **USDT**, enquanto o pool é atualizado com a nova proporção de ETH e USDT.
+
+---
+
 ## Diferenca entre Fintechs e Bancos Tradicionais
 
 | **Característica** | **Fintechs** | **Bancos Tradicionais** |
@@ -87,3 +119,18 @@ DeFi (Decentralized Finance), ou Finanças Descentralizadas, é um ecossistema d
 | **Acesso e Agilidade** | Aplicativos intuitivos, processos simplificados e menos burocracia. | Processos mais burocráticos, mas oferecem suporte completo. |
 | **Serviços Oferecidos** | Foco em nichos específicos, como crédito, investimentos e pagamentos. | Oferecem uma gama completa de serviços financeiros, incluindo crédito, financiamento, seguros e investimentos. |
 - *”Fintechs sao bancos que nao se tornaram grande o suficiente para serem lentos”*
+    
+    
+
+### Web 3
+
+Web3 é a próxima evolução da internet, baseada em tecnologias descentralizadas, como blockchain, contratos inteligentes e criptomoedas. Diferente da Web2, onde grandes empresas controlam dados e serviços, a Web3 busca distribuir o poder para os usuários, permitindo maior privacidade, autonomia e resistência à censura.
+
+Principais características:
+
+- **Descentralização**: Dados e aplicativos são executados em redes blockchain, sem necessidade de servidores centralizados.
+- **Propriedade digital**: Usuários podem possuir ativos digitais (NFTs, criptomoedas) sem depender de intermediários.
+- **Interoperabilidade**: Aplicações Web3 podem se conectar e interagir entre diferentes blockchains.
+- **Governança comunitária**: Muitas plataformas usam DAOs (Organizações Autônomas Descentralizadas) para decisões coletivas.
+
+Embora promissora, a Web3 ainda enfrenta desafios como escalabilidade, regulamentação e usabilidade.
